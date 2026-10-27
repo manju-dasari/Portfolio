@@ -100,4 +100,37 @@ li {
     h1 {
         font-size: 30px;
     }
+        .skills-container {
+        grid-template-columns: 1fr;
+    }
+}
+.skills-section {
+    text-align: center;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.skill-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skill-box h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.skill-box ul {
+    padding-left: 20px;
+}
+
+.skill-box li {
+    margin-bottom: 10px;
 }
